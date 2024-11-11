@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes changeColor {
+  from {
+    background-color: #7CB9E8;
+  }
+  to {
+    background-color: #FFFFFF;
+  }
+}
+
+.highlight-class {
+  animation: changeColor 2s ease-out;
+}
