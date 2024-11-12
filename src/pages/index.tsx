@@ -1,6 +1,7 @@
 import { Layout } from "@/components/Layout";
 import { CheckBoxSolution } from "@/excercises/CheckBoxSolution";
 import { InsertTextDoc } from "@/excercises/InsertTextDoc";
+import { Form } from "@/excercises/Form";
 
 
 /**
@@ -11,7 +12,8 @@ export default function Home() {
   return (
       <Layout>
         {/*<CheckBoxSolution/>*/}
-        {<InsertTextDoc/>}
+        {/*<InsertTextDoc/>*/}
+        {<Form/>}
       </Layout>
   );
 }
