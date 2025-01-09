@@ -1,7 +1,8 @@
 import { Layout } from "@/components/Layout";
-import { CheckBoxSolution } from "@/excercises/CheckBoxSolution";
-import { InsertTextDoc } from "@/excercises/InsertTextDoc";
-import { Form } from "@/excercises/Form";
+import { Typewriter } from "@/excercises/TypewriterEffect";
+// import { CheckBoxSolution } from "@/excercises/CheckBoxSolution";
+// import { InsertTextDoc } from "@/excercises/InsertTextDoc";
+// import { Form } from "@/excercises/Form";
 
 
 /**
@@ -11,9 +12,11 @@ import { Form } from "@/excercises/Form";
 export default function Home() {
   return (
       <Layout>
+        <Typewriter text="Hello World" speed={100}/>
         {/*<CheckBoxSolution/>*/}
         {/*<InsertTextDoc/>*/}
-        {<Form/>}
+        {/* <Form/> */}
+        <div></div>
       </Layout>
   );
 }
