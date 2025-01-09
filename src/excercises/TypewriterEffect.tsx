@@ -6,6 +6,7 @@
  * 
  */
 import React, {useState, useEffect, useRef } from "react"
+import { Container } from "@/components/Container"
 
 interface TypewriterProps {
     text: string,
@@ -61,7 +62,9 @@ export function Typewriter({text, speed = 100}: TypewriterProps) {
     },[text, speed])
 
     return (
-        <div className="typewriter">{displayText}</div>
+        <Container>
+            <div className="typewriter">{displayText}</div>
+        </Container>
     )
 
 }

@@ -1,0 +1,57 @@
+
+
+.toggle-switch {
+    position: relative;
+    display: inline-flex;
+    width: 44px;
+    height: 24px;
+    background-color: #e5e7eb; /* gray-200 */
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .toggle-switch input {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .toggle-switch input:focus-visible + .track {
+    box-shadow: 0 0 0 2px #4f46e5; /* indigo-600 */
+  }
+  
+  .toggle-switch input:checked + .track {
+    background-color: #4f46e5; /* indigo-600 */
+  }
+  
+  .track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+
+.thumb-off {
+    transform: translateX(0);
+  }
+  
+  .thumb-on {
+    transform: translateX(20px); /* Moves to the right */
+  }
+  
+  input:checked + .track .thumb {
+    transform: translateX(20px);
+  }

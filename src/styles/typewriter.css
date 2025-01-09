@@ -1,0 +1,12 @@
+.typewriter {
+    width: 100%;
+    display: inline-block;
+    border-right: 2px solid black;
+    animation: blink 0.7s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

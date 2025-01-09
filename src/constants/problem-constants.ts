@@ -1,6 +1,5 @@
 // All constants that may be required for certain exercises
 
-
 // Required for checkbox problem
 export const CheckBoxlist = [
     {
@@ -27,4 +26,4 @@ export const CheckBoxlist = [
       id: 5,
       name: 'Carlsberg',
     },
-  ];
+];

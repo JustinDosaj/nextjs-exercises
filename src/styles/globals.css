@@ -32,15 +32,3 @@ body {
 .highlight-class {
   animation: changeColor 2s ease-out;
 }
-
-.typewriter {
-  display: inline-block;
-  border-right: 2px solid black;
-  animation: blink 0.7s steps(1) infinite;
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}

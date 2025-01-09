@@ -26,7 +26,7 @@ export function InsertTextDoc() {
     }
 
     const addTextToDoc = () => {
-        let newDoc = `<p class="highlight-class">${text}</p>`
+        const newDoc = `<p class="highlight-class">${text}</p>`
         setDocument(document + newDoc)
         startColorChange()
     }
@@ -36,7 +36,7 @@ export function InsertTextDoc() {
         setTimeout(() => {
             setDocument((doc) => { 
                 setLoading(false)
-                let d = doc.replace(` class="highlight-class"`, '')
+                const d = doc.replace(` class="highlight-class"`, '')
                 return d;
             })
         }, 2000)
