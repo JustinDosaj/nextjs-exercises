@@ -1,5 +1,3 @@
-
-
 .toggle-switch {
     position: relative;
     display: inline-flex;
@@ -15,11 +13,7 @@
     opacity: 0;
     position: absolute;
   }
-  
-  .toggle-switch input:focus-visible + .track {
-    box-shadow: 0 0 0 2px #4f46e5; /* indigo-600 */
-  }
-  
+
   .toggle-switch input:checked + .track {
     background-color: #4f46e5; /* indigo-600 */
   }
@@ -43,15 +37,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
   }
-
-.thumb-off {
-    transform: translateX(0);
-  }
   
-  .thumb-on {
-    transform: translateX(20px); /* Moves to the right */
-  }
-  
-  input:checked + .track .thumb {
-    transform: translateX(20px);
-  }
+input:checked + .track + .thumb {
+  transform: translateX(20px);
+}

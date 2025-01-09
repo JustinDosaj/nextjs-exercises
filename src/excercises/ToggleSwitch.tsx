@@ -26,7 +26,7 @@ export function ToggleSwitch(props: ToggleSwitchProps) {
                     onChange={() => setEnable(!enable)}
                 />
                 <div className={`track`}/>
-                <div className={`thumb ${enable ? 'thumb-on' : 'thumb-off'}`}/>
+                <div className={`thumb`}/>
             </label>
         </Container>
     )
