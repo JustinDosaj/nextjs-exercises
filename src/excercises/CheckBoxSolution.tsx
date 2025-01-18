@@ -15,10 +15,9 @@
  */
 
 import React, { useState, useEffect } from "react"
-import { Problem } from "@/components/Problem"
-import { CheckBoxProblem } from "@/constants/problem-desc"
 import { Container } from "@/components/Container"
 import { CheckBoxlist } from "@/constants/problem-constants"
+import { Title } from "@/components/Title"
 
 interface Item {
     id: number;
@@ -108,7 +107,7 @@ export function CheckBoxSolution() {
         <Container>
 
             {/* Problem Description */}
-            <Problem problem={CheckBoxProblem}/>
+            <Title title={"Check Box"}/>
 
             {/* Solution */}
             <div className="grid justify-center space-y-1">

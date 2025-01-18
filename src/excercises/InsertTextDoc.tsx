@@ -1,6 +1,5 @@
 import React, { useState } from "react"
-import { Problem } from "@/components/Problem"
-import { InsertTextDocProblem } from "@/constants/problem-desc"
+import { Title } from "@/components/Title"
 import { Container } from "@/components/Container"
 
 export function InsertTextDoc() {
@@ -45,7 +44,7 @@ export function InsertTextDoc() {
     return (
         <Container>
             {/* Problem Description */}
-            <Problem problem={InsertTextDocProblem}/>
+            <Title title={"Insert Text Document"}/>
 
             {/* Solution */}
             <div>

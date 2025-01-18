@@ -7,6 +7,7 @@
  */
 import React, {useState, useEffect, useRef } from "react"
 import { Container } from "@/components/Container"
+import { Title } from "@/components/Title"
 
 interface TypewriterProps {
     text: string,
@@ -62,8 +63,11 @@ export function Typewriter({text, speed = 100}: TypewriterProps) {
     },[text, speed])
 
     return (
-        <Container>
-            <div className="typewriter">{displayText}</div>
+        <Container className="">
+            <Title title={"Typewriter Effect"}/>
+            <div>
+                <div className="typewriter">{displayText}</div>
+            </div>
         </Container>
     )
 

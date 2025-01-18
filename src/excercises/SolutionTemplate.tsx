@@ -1,6 +1,5 @@
 import React from "react"
-import { Problem } from "@/components/Problem"
-import { CheckBoxProblem } from "@/constants/problem-desc"
+import { Title } from "@/components/Title"
 import { Container } from "@/components/Container"
 
 export function Template() {
@@ -8,7 +7,7 @@ export function Template() {
         <Container>
 
             {/* Problem Description */}
-            <Problem problem={CheckBoxProblem}/>
+            <Title title={"Template"}/>
 
             {/* Solution */}
             <div>Solution</div>

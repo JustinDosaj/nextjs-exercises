@@ -7,6 +7,7 @@
  */
 
 import { Container } from "@/components/Container";
+import { Title } from "@/components/Title";
 
 interface ToggleSwitchProps {
     enable: boolean;
@@ -19,6 +20,9 @@ export function ToggleSwitch(props: ToggleSwitchProps) {
 
     return(
         <Container>
+
+            <Title title={"Toggle Switch"}/>
+
             <label className="toggle-switch">
                 <input type="checkbox" 
                     className="sr-only" 

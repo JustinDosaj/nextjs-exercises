@@ -1,6 +1,5 @@
 import React from "react"
-import { Problem } from "@/components/Problem"
-import { FormValidationProblem } from "@/constants/problem-desc"
+import { Title } from "@/components/Title"
 import { Container } from "@/components/Container"
 
 export function Form() {
@@ -8,7 +7,7 @@ export function Form() {
         <Container>
 
             {/* Problem Description */}
-            <Problem problem={FormValidationProblem}/>
+            <Title title={"Form"}/>
 
             {/* Solution */}
             <div>Solution</div>
