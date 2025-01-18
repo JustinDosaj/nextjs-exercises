@@ -19,7 +19,7 @@ export function ToggleSwitch(props: ToggleSwitchProps) {
     const { enable, setEnable } = props;
 
     return(
-        <Container>
+        <Container className="text-center">
 
             <Title title={"Toggle Switch"}/>
 
