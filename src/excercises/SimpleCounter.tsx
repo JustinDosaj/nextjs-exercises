@@ -16,7 +16,7 @@ export function SimpleCounter() {
         <Container>
 
             {/* Problem Description */}
-            <Title title={"Template"}/>
+            <Title title={"Use Ref Test"}/>
 
             {/* Solution */}
             <div>{counter.current}</div>

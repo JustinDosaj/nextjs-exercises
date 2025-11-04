@@ -7,6 +7,7 @@ import { InsertTextDoc } from "@/excercises/InsertTextDoc";
 import { ChildrenTest } from "@/excercises/ChildrenTest";
 import { SimpleCounter } from "@/excercises/SimpleCounter";
 import LoadingBar from "@/excercises/LoadingBar";
+import { ErrorExcercise } from "@/excercises/ErrorExcercise";
 
 
 /**
@@ -19,6 +20,7 @@ export default function Home() {
   
   return (
       <Layout>
+        <ErrorExcercise/>
         <LoadingBar/>
         <ToggleSwitch enable={checked} setEnable={setChecked}/>
         <Typewriter text="Hello World" speed={100}/>
