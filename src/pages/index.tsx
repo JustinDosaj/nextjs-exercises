@@ -4,6 +4,7 @@ import { ToggleSwitch } from "@/excercises/ToggleSwitch";
 import { Typewriter } from "@/excercises/TypewriterEffect";
 import { CheckBoxSolution } from "@/excercises/CheckBoxSolution";
 import { InsertTextDoc } from "@/excercises/InsertTextDoc";
+import { ChildrenTest } from "@/excercises/ChildrenTest";
 import LoadingBar from "@/excercises/LoadingBar";
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Typewriter text="Hello World" speed={100}/>
         <CheckBoxSolution/>
         <InsertTextDoc/>
+        <ChildrenTest/>
       </Layout>
   );
 }
