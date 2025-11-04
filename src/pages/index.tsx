@@ -5,6 +5,7 @@ import { Typewriter } from "@/excercises/TypewriterEffect";
 import { CheckBoxSolution } from "@/excercises/CheckBoxSolution";
 import { InsertTextDoc } from "@/excercises/InsertTextDoc";
 import { ChildrenTest } from "@/excercises/ChildrenTest";
+import { SimpleCounter } from "@/excercises/SimpleCounter";
 import LoadingBar from "@/excercises/LoadingBar";
 
 
@@ -24,6 +25,7 @@ export default function Home() {
         <CheckBoxSolution/>
         <InsertTextDoc/>
         <ChildrenTest/>
+        <SimpleCounter/>
       </Layout>
   );
 }
