@@ -1,0 +1,12 @@
+[
+    {"id":1,"first_name":"Mommy","last_name":"O'Codihie","email":"mocodihie0@yahoo.com","city":"Los Angeles","income":"$12434.70"},
+    {"id":2,"first_name":"Livy","last_name":"Sporrij","email":"lsporrij1@sbcglobal.net","city":"New York","income":"$44936.71"},
+    {"id":3,"first_name":"Waring","last_name":"Gent","email":"wgent2@yahoo.com","city":"Austin","income":"$26878.93"},
+    {"id":4,"first_name":"Lynna","last_name":"Pressland","email":"lpressland3@gmail.com","city":"Austin","income":"$25209.04"},
+    {"id":5,"first_name":"Joe","last_name":"McCarrell","email":"jmccarrell4@gmail.com","city":"San Diego","income":"$49852.67"},
+    {"id":6,"first_name":"Lynn","last_name":"Ramsted","email":"lramsted5@yahoo.com","city":"San Diego","income":"$62184.85"},
+    {"id":7,"first_name":"Jeanine","last_name":"Middell","email":"jmiddell6@gmail.com","city":"New York","income":"$62893.02"},
+    {"id":8,"first_name":"Chilton","last_name":"Dives","email":"cdives7@gmail.com","city":"Los Angeles","income":"$29132.70"},
+    {"id":9,"first_name":"Babbette","last_name":"Hellyar","email":"bhellyar8@gmail.com","city":"San Diego","income":"$38639.29"},
+    {"id":10,"first_name":"Idalia","last_name":"Tryme","email":"itryme9@yahoo.com","city":"New York","income":"$55214.40"}
+]

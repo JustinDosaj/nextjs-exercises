@@ -2,8 +2,7 @@
  * PROBLEM NAME: Create a typewriter effect
  * 
  * DESCRIPTION: Create an effect that can receive a string and display it on the screen as if it was being typed out
- * 
- * 
+ 
  */
 import React, {useState, useEffect, useRef } from "react"
 import { Container } from "@/components/Container"

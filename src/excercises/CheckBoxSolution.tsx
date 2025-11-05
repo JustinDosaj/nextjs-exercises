@@ -39,8 +39,6 @@ export function CheckBoxSolution() {
         })
     )
 
-    console.log(checkCount)
-
     const onSingleSelect = (item: Item) => {
         const updatedItems = itemList.map((i: Item) => {
             if(item.name === i.name) {
